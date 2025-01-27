@@ -1,0 +1,124 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Ignore all .env files
+*.env
+
+# Ignore Firebase related files
+firebase.json
+*/firebase-debug.log
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+lib/firebase_options.dart
+
+# Ignore OS-specific directories
+/windows/
+/linux/
+/macos/
+/web/
+
+# Ignore some common unnecessary files
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore auto-generated .g.dart files
+*.g.dart
+
+# Build artifacts for iOS
+ios/build/
+
+# Metadata file if auto-generated or environment-specific
+.metadata
+
+# Other common ignores
+.DS_Store
+*.iml
+*.ipr
+*.iws
+*.idea
+.vscode/
+
+# Firebase Functions
+functions/node_modules/
+functions/.functions/
+functions/lib/
+functions/dist/
+functions/coverage/
+functions/.nyc_output/
+functions/.runtimeconfig.json
+functions/firebase-debug.log
+
+# IDE and system files
+functions/.vscode/
+functions/.idea/
+functions/.DS_Store
+
+# Package manager lock files
+functions/package-lock.json
+functions/yarn.lock
+
+# Logs
+functions/*.log# Firebase configuration
+functions/.firebaserc
+functions/.gcloudignore
+# Auto-generated files
+ios/Podfile.lock
+pubspec.lock
+# Local .gitignore files
+android/.gitignore
+ios/.gitignore
+functions/.gitignore
+# Firebase configuration
+functions/.firebaserc
+functions/.gcloudignore
+# Auto-generated files
+ios/Podfile.lock
+pubspec.lock
+# Local .gitignore files
+android/.gitignore
+ios/.gitignore
+functions/.gitignore
